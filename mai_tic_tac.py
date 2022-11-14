@@ -12,11 +12,14 @@ def main():
         choice = input("Do you want to Continue y/n: ")
         if choice == 'y' or choice == 'Y':
             Continue = True
-
+            print_Tic_tac_toe()
         else:
             Continue = False
 
-def print_Tic_Tac_Toe():
-    pass
+
+def print_Tic_tac_toe():
+    print("____ | ____ | ____")
+    print("____ | ____ | ____")
+    print("____ | ____ | ____")
 
 main()
